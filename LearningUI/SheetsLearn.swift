@@ -49,6 +49,8 @@ struct SecondScreen : View {
                     .foregroundColor(.white)
                     .padding(20)
                    // .background(Color.green)
+                
+                Text("Hello")
 
             })
         })
