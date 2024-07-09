@@ -50,7 +50,6 @@ struct SecondScreen : View {
                     .padding(20)
                    // .background(Color.green)
                 
-                Text("Hello")
 
             })
         })

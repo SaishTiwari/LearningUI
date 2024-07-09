@@ -9,23 +9,24 @@ import SwiftUI
 
 struct YtGhanti: View {
     var body: some View {
-        
-        
-        Image(systemName: "bell.fill").font(.largeTitle)
-            .frame(width: 300, height: 300)
-
-            .scaledToFill()
-                
-               
-                    
-                }
-                    
-                }
-        
+        ZStack(alignment: .topTrailing) {
+            Image(systemName: "bell.fill")
+                .font(.largeTitle)
+                .padding()
             
-        
-    
-
+            
+            Circle()
+                .foregroundColor(.red)
+                .frame(width: 24, height: 24)
+                .overlay(
+                    Text("5")
+                        .foregroundColor(.white)
+                        .font(.caption)
+                )
+                .offset(x:-10, y: 10)
+        }
+    }
+}
 
 #Preview {
     YtGhanti()

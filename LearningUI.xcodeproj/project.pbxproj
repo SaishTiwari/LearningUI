@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1B742F2C3A5C7E00898420 /* ActionSheetLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1B742E2C3A5C7E00898420 /* ActionSheetLearning.swift */; };
+		DD1B74312C3AF1AE00898420 /* ContextMenuLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1B74302C3AF1AD00898420 /* ContextMenuLearn.swift */; };
+		DD1B74332C3AF5F400898420 /* TextFieldLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1B74322C3AF5F400898420 /* TextFieldLearning.swift */; };
 		DD4D91A62C226DCE001CDC6A /* StackLearning .swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D91A52C226DCE001CDC6A /* StackLearning .swift */; };
 		DD4D91A82C227417001CDC6A /* PaddingLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D91A72C227417001CDC6A /* PaddingLearn.swift */; };
 		DD4D91AA2C227FEE001CDC6A /* BaseMaking .swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D91A92C227FEE001CDC6A /* BaseMaking .swift */; };
@@ -29,21 +32,37 @@
 		DDA25E602C29163300C33490 /* IfElseLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA25E5F2C29163300C33490 /* IfElseLearn.swift */; };
 		DDA3773F2C211DFD0073FB57 /* Classwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA3773E2C211DFD0073FB57 /* Classwork.swift */; };
 		DDA377432C212D350073FB57 /* NotificationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA377422C212D350073FB57 /* NotificationUI.swift */; };
+		DDB316C52C3C40B700AC6E56 /* TextEditorLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB316C42C3C40B700AC6E56 /* TextEditorLearn.swift */; };
+		DDB316C72C3C424000AC6E56 /* ToggleLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB316C62C3C424000AC6E56 /* ToggleLearning.swift */; };
+		DDB316C92C3C44AB00AC6E56 /* PickerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB316C82C3C44AB00AC6E56 /* PickerLearning.swift */; };
 		DDB36ACD2C23C8D700202031 /* ForeachLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB36ACC2C23C8D700202031 /* ForeachLearn.swift */; };
 		DDB36ACF2C23CE5200202031 /* ScrollViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB36ACE2C23CE5200202031 /* ScrollViewLearn.swift */; };
 		DDBD6C932C203D3300BEADE8 /* FrameLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD6C922C203D3300BEADE8 /* FrameLearn.swift */; };
 		DDBD6C952C20448300BEADE8 /* StackLean.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD6C942C20448300BEADE8 /* StackLean.swift */; };
+		DDC6D23C2C2FB840009AE008 /* NavigationViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6D23B2C2FB840009AE008 /* NavigationViewLearn.swift */; };
 		DDCEDC742C27F7A300F6FC14 /* SafeAreaLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEDC732C27F7A300F6FC14 /* SafeAreaLearn.swift */; };
 		DDCEDC762C27FDF500F6FC14 /* ButtonsLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEDC752C27FDF500F6FC14 /* ButtonsLearn.swift */; };
 		DDCEDC782C28135300F6FC14 /* ExtractedFuncLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEDC772C28135300F6FC14 /* ExtractedFuncLearn.swift */; };
 		DDCEDC7A2C284DF300F6FC14 /* SubViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEDC792C284DF300F6FC14 /* SubViewLearn.swift */; };
 		DDCEDC7C2C2868FD00F6FC14 /* BindingLearn .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCEDC7B2C2868FD00F6FC14 /* BindingLearn .swift */; };
 		DDD46CDA2C2AF1730011B2C3 /* AnimationLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD46CD92C2AF1730011B2C3 /* AnimationLearn.swift */; };
+		DDDAE8DA2C3955580073012C /* ListLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDAE8D92C3955580073012C /* ListLearning.swift */; };
+		DDDAE8DC2C3963560073012C /* ManchesterCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDAE8DB2C3963560073012C /* ManchesterCity.swift */; };
+		DDDAE8DE2C396C860073012C /* AlertLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDAE8DD2C396C860073012C /* AlertLearning.swift */; };
+		DDDD97D72C3CF7A900E02226 /* ColorPickerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97D62C3CF7A900E02226 /* ColorPickerLearning.swift */; };
+		DDDD97D92C3CF9C400E02226 /* DatePickerLearning .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97D82C3CF9C400E02226 /* DatePickerLearning .swift */; };
+		DDDD97DB2C3CFEE600E02226 /* StepperLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97DA2C3CFEE600E02226 /* StepperLearning.swift */; };
+		DDDD97DD2C3D02DA00E02226 /* SliderLearinig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97DC2C3D02DA00E02226 /* SliderLearinig.swift */; };
+		DDDD97DF2C3D080700E02226 /* TabViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97DE2C3D080700E02226 /* TabViewLearn.swift */; };
+		DDDD97E12C3D57CA00E02226 /* PageTabViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD97E02C3D57CA00E02226 /* PageTabViewLearning.swift */; };
 		DDEF93942C2C691C00A68683 /* SheetsLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF93932C2C691C00A68683 /* SheetsLearn.swift */; };
 		DDEF93962C2C6DE200A68683 /* PopOverLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF93952C2C6DE200A68683 /* PopOverLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1B742E2C3A5C7E00898420 /* ActionSheetLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetLearning.swift; sourceTree = "<group>"; };
+		DD1B74302C3AF1AD00898420 /* ContextMenuLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuLearn.swift; sourceTree = "<group>"; };
+		DD1B74322C3AF5F400898420 /* TextFieldLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLearning.swift; sourceTree = "<group>"; };
 		DD4D91A52C226DCE001CDC6A /* StackLearning .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackLearning .swift"; sourceTree = "<group>"; };
 		DD4D91A72C227417001CDC6A /* PaddingLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLearn.swift; sourceTree = "<group>"; };
 		DD4D91A92C227FEE001CDC6A /* BaseMaking .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseMaking .swift"; sourceTree = "<group>"; };
@@ -67,16 +86,29 @@
 		DDA25E5F2C29163300C33490 /* IfElseLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseLearn.swift; sourceTree = "<group>"; };
 		DDA3773E2C211DFD0073FB57 /* Classwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classwork.swift; sourceTree = "<group>"; };
 		DDA377422C212D350073FB57 /* NotificationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUI.swift; sourceTree = "<group>"; };
+		DDB316C42C3C40B700AC6E56 /* TextEditorLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLearn.swift; sourceTree = "<group>"; };
+		DDB316C62C3C424000AC6E56 /* ToggleLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleLearning.swift; sourceTree = "<group>"; };
+		DDB316C82C3C44AB00AC6E56 /* PickerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLearning.swift; sourceTree = "<group>"; };
 		DDB36ACC2C23C8D700202031 /* ForeachLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeachLearn.swift; sourceTree = "<group>"; };
 		DDB36ACE2C23CE5200202031 /* ScrollViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLearn.swift; sourceTree = "<group>"; };
 		DDBD6C922C203D3300BEADE8 /* FrameLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearn.swift; sourceTree = "<group>"; };
 		DDBD6C942C20448300BEADE8 /* StackLean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackLean.swift; sourceTree = "<group>"; };
+		DDC6D23B2C2FB840009AE008 /* NavigationViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewLearn.swift; sourceTree = "<group>"; };
 		DDCEDC732C27F7A300F6FC14 /* SafeAreaLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLearn.swift; sourceTree = "<group>"; };
 		DDCEDC752C27FDF500F6FC14 /* ButtonsLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLearn.swift; sourceTree = "<group>"; };
 		DDCEDC772C28135300F6FC14 /* ExtractedFuncLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFuncLearn.swift; sourceTree = "<group>"; };
 		DDCEDC792C284DF300F6FC14 /* SubViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewLearn.swift; sourceTree = "<group>"; };
 		DDCEDC7B2C2868FD00F6FC14 /* BindingLearn .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BindingLearn .swift"; sourceTree = "<group>"; };
 		DDD46CD92C2AF1730011B2C3 /* AnimationLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearn.swift; sourceTree = "<group>"; };
+		DDDAE8D92C3955580073012C /* ListLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLearning.swift; sourceTree = "<group>"; };
+		DDDAE8DB2C3963560073012C /* ManchesterCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManchesterCity.swift; sourceTree = "<group>"; };
+		DDDAE8DD2C396C860073012C /* AlertLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLearning.swift; sourceTree = "<group>"; };
+		DDDD97D62C3CF7A900E02226 /* ColorPickerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerLearning.swift; sourceTree = "<group>"; };
+		DDDD97D82C3CF9C400E02226 /* DatePickerLearning .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DatePickerLearning .swift"; sourceTree = "<group>"; };
+		DDDD97DA2C3CFEE600E02226 /* StepperLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperLearning.swift; sourceTree = "<group>"; };
+		DDDD97DC2C3D02DA00E02226 /* SliderLearinig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLearinig.swift; sourceTree = "<group>"; };
+		DDDD97DE2C3D080700E02226 /* TabViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewLearn.swift; sourceTree = "<group>"; };
+		DDDD97E02C3D57CA00E02226 /* PageTabViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewLearning.swift; sourceTree = "<group>"; };
 		DDEF93932C2C691C00A68683 /* SheetsLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsLearn.swift; sourceTree = "<group>"; };
 		DDEF93952C2C6DE200A68683 /* PopOverLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +175,22 @@
 				DDEF93932C2C691C00A68683 /* SheetsLearn.swift */,
 				DDEF93952C2C6DE200A68683 /* PopOverLearn.swift */,
 				DD774C1E2C2D0F4800E481B5 /* YtGhanti.swift */,
+				DDC6D23B2C2FB840009AE008 /* NavigationViewLearn.swift */,
+				DDDAE8D92C3955580073012C /* ListLearning.swift */,
+				DDDAE8DB2C3963560073012C /* ManchesterCity.swift */,
+				DDDAE8DD2C396C860073012C /* AlertLearning.swift */,
+				DD1B742E2C3A5C7E00898420 /* ActionSheetLearning.swift */,
+				DD1B74302C3AF1AD00898420 /* ContextMenuLearn.swift */,
+				DD1B74322C3AF5F400898420 /* TextFieldLearning.swift */,
+				DDB316C42C3C40B700AC6E56 /* TextEditorLearn.swift */,
+				DDB316C62C3C424000AC6E56 /* ToggleLearning.swift */,
+				DDB316C82C3C44AB00AC6E56 /* PickerLearning.swift */,
+				DDDD97D62C3CF7A900E02226 /* ColorPickerLearning.swift */,
+				DDDD97D82C3CF9C400E02226 /* DatePickerLearning .swift */,
+				DDDD97DA2C3CFEE600E02226 /* StepperLearning.swift */,
+				DDDD97DC2C3D02DA00E02226 /* SliderLearinig.swift */,
+				DDDD97DE2C3D080700E02226 /* TabViewLearn.swift */,
+				DDDD97E02C3D57CA00E02226 /* PageTabViewLearning.swift */,
 				DD4E36FC2C1F415200DAB56B /* Assets.xcassets */,
 				DD4E36FE2C1F415200DAB56B /* Preview Content */,
 			);
@@ -228,37 +276,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBD6C952C20448300BEADE8 /* StackLean.swift in Sources */,
+				DDB316C92C3C44AB00AC6E56 /* PickerLearning.swift in Sources */,
 				DD5240DF2C268B0000C53749 /* GridLearning.swift in Sources */,
 				DDCEDC742C27F7A300F6FC14 /* SafeAreaLearn.swift in Sources */,
 				DD4E36F92C1F415100DAB56B /* ContentView.swift in Sources */,
 				DD4E36FB2C1F415100DAB56B /* Item.swift in Sources */,
 				DD4D91AA2C227FEE001CDC6A /* BaseMaking .swift in Sources */,
+				DDB316C52C3C40B700AC6E56 /* TextEditorLearn.swift in Sources */,
 				DDA1A7632C1FFEB700C83244 /* Shapes.swift in Sources */,
 				DD6F462D2C24564F000734F2 /* DoubleScrollFile.swift in Sources */,
 				DDCEDC782C28135300F6FC14 /* ExtractedFuncLearn.swift in Sources */,
 				DDBD6C932C203D3300BEADE8 /* FrameLearn.swift in Sources */,
 				DDA1A7672C200B8900C83244 /* GradientLearning.swift in Sources */,
 				DD4D91A82C227417001CDC6A /* PaddingLearn.swift in Sources */,
+				DDDD97DF2C3D080700E02226 /* TabViewLearn.swift in Sources */,
 				DDCEDC7A2C284DF300F6FC14 /* SubViewLearn.swift in Sources */,
+				DDB316C72C3C424000AC6E56 /* ToggleLearning.swift in Sources */,
+				DDDD97D92C3CF9C400E02226 /* DatePickerLearning .swift in Sources */,
+				DDDAE8DA2C3955580073012C /* ListLearning.swift in Sources */,
 				DDD46CDA2C2AF1730011B2C3 /* AnimationLearn.swift in Sources */,
+				DD1B742F2C3A5C7E00898420 /* ActionSheetLearning.swift in Sources */,
 				DDB36ACF2C23CE5200202031 /* ScrollViewLearn.swift in Sources */,
 				DDA1A7692C200EA500C83244 /* RainbowTry.swift in Sources */,
 				DD4D91A62C226DCE001CDC6A /* StackLearning .swift in Sources */,
+				DD1B74312C3AF1AE00898420 /* ContextMenuLearn.swift in Sources */,
 				DD774C1F2C2D0F4800E481B5 /* YtGhanti.swift in Sources */,
 				DDCEDC762C27FDF500F6FC14 /* ButtonsLearn.swift in Sources */,
+				DDC6D23C2C2FB840009AE008 /* NavigationViewLearn.swift in Sources */,
 				DD4D91AC2C2296D3001CDC6A /* Initlearn.swift in Sources */,
 				DDA25E602C29163300C33490 /* IfElseLearn.swift in Sources */,
 				DDA1A76D2C20224600C83244 /* ImagesSwift.swift in Sources */,
 				DDCEDC7C2C2868FD00F6FC14 /* BindingLearn .swift in Sources */,
+				DDDAE8DC2C3963560073012C /* ManchesterCity.swift in Sources */,
+				DD1B74332C3AF5F400898420 /* TextFieldLearning.swift in Sources */,
+				DDDD97D72C3CF7A900E02226 /* ColorPickerLearning.swift in Sources */,
+				DDDD97E12C3D57CA00E02226 /* PageTabViewLearning.swift in Sources */,
 				DD4E37072C1F44F400DAB56B /* Text.swift in Sources */,
 				DD4E36F72C1F415100DAB56B /* LearningUIApp.swift in Sources */,
 				DDA377432C212D350073FB57 /* NotificationUI.swift in Sources */,
 				DDA3773F2C211DFD0073FB57 /* Classwork.swift in Sources */,
+				DDDAE8DE2C396C860073012C /* AlertLearning.swift in Sources */,
 				DDA1A76B2C20177F00C83244 /* SystemIconsUse.swift in Sources */,
 				DDEF93962C2C6DE200A68683 /* PopOverLearn.swift in Sources */,
 				DDB36ACD2C23C8D700202031 /* ForeachLearn.swift in Sources */,
+				DDDD97DB2C3CFEE600E02226 /* StepperLearning.swift in Sources */,
 				DDEF93942C2C691C00A68683 /* SheetsLearn.swift in Sources */,
 				DDA1A7652C20028800C83244 /* Color.swift in Sources */,
+				DDDD97DD2C3D02DA00E02226 /* SliderLearinig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

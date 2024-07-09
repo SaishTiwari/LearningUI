@@ -64,6 +64,7 @@ struct DoubleScrollFile: View {
                             .aspectRatio(contentMode: .fit)
                             .scaledToFit()
                             .frame(width: 370)
+                            .cornerRadius(25)
                             .padding(.bottom)
                             .padding(.horizontal,20)
                         
@@ -73,6 +74,7 @@ struct DoubleScrollFile: View {
                             .aspectRatio(contentMode: .fit)
                             .scaledToFit()
                             .frame(width:370)
+                            .cornerRadius(25)
                             .padding(.bottom)
                             .padding(.horizontal)
                                             
