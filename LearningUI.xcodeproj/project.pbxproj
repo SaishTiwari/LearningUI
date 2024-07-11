@@ -24,6 +24,8 @@
 		DD6380152C3FC6C4007ADCD2 /* OnAppearLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6380142C3FC6C4007ADCD2 /* OnAppearLearning.swift */; };
 		DD6380172C3FCA06007ADCD2 /* SafeCodingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6380162C3FCA06007ADCD2 /* SafeCodingLearning.swift */; };
 		DD6380192C3FCF2C007ADCD2 /* TapGestureLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6380182C3FCF2C007ADCD2 /* TapGestureLearning.swift */; };
+		DD63801B2C4004EB007ADCD2 /* CustomModelLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63801A2C4004EB007ADCD2 /* CustomModelLearning.swift */; };
+		DD63801D2C401DE4007ADCD2 /* ViewModelLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63801C2C401DE4007ADCD2 /* ViewModelLearning.swift */; };
 		DD6F462D2C24564F000734F2 /* DoubleScrollFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F462C2C24564F000734F2 /* DoubleScrollFile.swift */; };
 		DD774C1F2C2D0F4800E481B5 /* YtGhanti.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD774C1E2C2D0F4800E481B5 /* YtGhanti.swift */; };
 		DDA1A7632C1FFEB700C83244 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1A7622C1FFEB700C83244 /* Shapes.swift */; };
@@ -81,6 +83,8 @@
 		DD6380142C3FC6C4007ADCD2 /* OnAppearLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearLearning.swift; sourceTree = "<group>"; };
 		DD6380162C3FCA06007ADCD2 /* SafeCodingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeCodingLearning.swift; sourceTree = "<group>"; };
 		DD6380182C3FCF2C007ADCD2 /* TapGestureLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureLearning.swift; sourceTree = "<group>"; };
+		DD63801A2C4004EB007ADCD2 /* CustomModelLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelLearning.swift; sourceTree = "<group>"; };
+		DD63801C2C401DE4007ADCD2 /* ViewModelLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLearning.swift; sourceTree = "<group>"; };
 		DD6F462C2C24564F000734F2 /* DoubleScrollFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleScrollFile.swift; sourceTree = "<group>"; };
 		DD774C1E2C2D0F4800E481B5 /* YtGhanti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YtGhanti.swift; sourceTree = "<group>"; };
 		DDA1A7622C1FFEB700C83244 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 				DD6380142C3FC6C4007ADCD2 /* OnAppearLearning.swift */,
 				DD6380162C3FCA06007ADCD2 /* SafeCodingLearning.swift */,
 				DD6380182C3FCF2C007ADCD2 /* TapGestureLearning.swift */,
+				DD63801A2C4004EB007ADCD2 /* CustomModelLearning.swift */,
+				DD63801C2C401DE4007ADCD2 /* ViewModelLearning.swift */,
 				DD4E36FC2C1F415200DAB56B /* Assets.xcassets */,
 				DD4E36FE2C1F415200DAB56B /* Preview Content */,
 			);
@@ -302,6 +308,7 @@
 				DDDD97DF2C3D080700E02226 /* TabViewLearn.swift in Sources */,
 				DDCEDC7A2C284DF300F6FC14 /* SubViewLearn.swift in Sources */,
 				DDB316C72C3C424000AC6E56 /* ToggleLearning.swift in Sources */,
+				DD63801D2C401DE4007ADCD2 /* ViewModelLearning.swift in Sources */,
 				DDDD97D92C3CF9C400E02226 /* DatePickerLearning .swift in Sources */,
 				DDDAE8DA2C3955580073012C /* ListLearning.swift in Sources */,
 				DD6380152C3FC6C4007ADCD2 /* OnAppearLearning.swift in Sources */,
@@ -324,6 +331,7 @@
 				DDDD97E12C3D57CA00E02226 /* PageTabViewLearning.swift in Sources */,
 				DD4E37072C1F44F400DAB56B /* Text.swift in Sources */,
 				DD4E36F72C1F415100DAB56B /* LearningUIApp.swift in Sources */,
+				DD63801B2C4004EB007ADCD2 /* CustomModelLearning.swift in Sources */,
 				DDA377432C212D350073FB57 /* NotificationUI.swift in Sources */,
 				DDA3773F2C211DFD0073FB57 /* Classwork.swift in Sources */,
 				DDDAE8DE2C396C860073012C /* AlertLearning.swift in Sources */,

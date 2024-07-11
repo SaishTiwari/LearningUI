@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DatePickerLearning_: View {
+    @State var showAlert : Bool = false
     @State private var birthdate: Date = Date()
     
     var age: Int {
@@ -18,13 +19,33 @@ struct DatePickerLearning_: View {
     
     var body: some View {
         VStack {
-            DatePicker("Choose your Birthday", selection: $birthdate, displayedComponents: [.date])
+            Text("Choose your birthday").font(.headline)
+            DatePicker(" ",selection: $birthdate, displayedComponents: [.date])
                 .datePickerStyle(WheelDatePickerStyle())
+                .padding()
             
-            Text("Your age is \(age)")
+            Text("Save".uppercased())
+                .foregroundColor(.white)
+                .padding()
+                
+                .background(Color.blue)
+                .cornerRadius(10)
+                .onTapGesture {
+                    showAlert.toggle()
+                }
+                
+            
         }
+        
         .padding()
+        .alert(isPresented: $showAlert, content: {
+            Alert(title: Text("You're \(age) years old"),
+                  message: Text("This cannot be changed"), dismissButton: .cancel(Text("Confirm".uppercased())))
+
+        })
+       
     }
+    
 }
 
 #Preview {
