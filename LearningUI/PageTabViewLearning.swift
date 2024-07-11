@@ -28,3 +28,4 @@ struct PageTabViewLearning: View {
     PageTabViewLearning()
         .preferredColorScheme(.light)
 }
+
