@@ -31,7 +31,7 @@ struct LearningUIApp: App {
     var body: some Scene {
         WindowGroup {
             // Display the main view of the app
-            FrameLearn()
+            AppStorageLearning()
         }
         // Attach the model container to the scene
         .modelContainer(sharedModelContainer)
